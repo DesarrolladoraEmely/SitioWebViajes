@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+    <!-- elazar el archivo de css externo -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- forma local interna
+    <style>
+        p{
+            /* propiedad: valor */
+            font-size: 50px;
+            color: aqua;
+        }
+    </style>
+    forma interna -->
+    <!-- <h1 style="color: blue;">Titulo 1</h1> -->
+    <!-- <p id="p1">parrafo 1</p> -->
+    <!-- <span class="span1 alinear">parrafo span 1</span> -->
+    <!-- <h2 class="span1">subtitulo</h2> --> 
+
+    <div>
+        <h1>Por jerarquia</h1>
+        <h2>titulo</h2>
+        <p>parrafo 1</p>
+        <p>parrafo 2 
+            <span>span 1 <p>parrafo 3</p> </span>
+        </p>
+        <div>
+            <span>span 2
+                <p>parrafo 4</p>
+            </span>
+        </div>
+    </div>
+</body>
+</html>

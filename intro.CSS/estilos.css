@@ -1,0 +1,49 @@
+/* selectores por nombre
+span{
+    background-color: brown;
+}
+h2{
+    color: aquamarine;
+}
+/* selectores por clase (.) */
+/* .span1{
+    font-size: 30px;
+    background-color: beige;
+} */
+/* .alinear{
+    display: block;
+    text-align: right;
+} */
+/* selectores por id */
+/* #p1{
+    color: blueviolet;
+    font-weight: bold;
+}  */
+
+/* po jerarquia (>) hijo directo */
+/* div > p{
+    color: red;
+} */
+/* por jerarquia (espacio) hijo indirecto */
+/* div p{
+    color: blue;
+} */
+/* por adyacentes (+) primer hermano */
+div > h2 +p+ p{
+    color: darkgoldenrod;
+    background-color: violet;
+}
+/* por adyacentes (~) todos hermanos */
+div > h2 ~ p{
+    color: darkgoldenrod;
+    background-color: violet;
+}
+/* por todo(*) */
+/* forma 1 */
+* *{
+    color: aqua;
+}
+/* forma 2 */
+div * span{
+    color: red;
+}
